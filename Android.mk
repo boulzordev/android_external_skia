@@ -606,7 +606,6 @@ LOCAL_STATIC_LIBRARIES := \
 	libwebp-encode \
 	libsfntly
 
-
 LOCAL_C_INCLUDES := \
 	external/jpeg \
 	external/libpng \
@@ -657,6 +656,8 @@ LOCAL_EXPORT_C_INCLUDE_DIRS := \
 
 LOCAL_MODULE := \
 	libskia
+
+LOCAL_CLANG := false
 
 LOCAL_SRC_FILES_arm += \
 	src/core/SkUtilsArm.cpp \
